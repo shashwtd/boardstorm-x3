@@ -1,0 +1,61 @@
+# =============================================================================
+# Tracks: design sources, libraries/, images/, JOURNAL.md, sym-lib-table, fp-lib-table
+# =============================================================================
+
+# --- OS & editor junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# --- KiCad temporary / backup / local cache (official guidance) ---
+# https://docs.kicad.org/9.0/en/kicad/kicad.html
+*-backups/
+**/*-backups/**
+_autosave-*
+#auto_saved_files#
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*-bak*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+*.lck
+
+# Local per-machine KiCad UI (layer visibility, filters, window state)
+*.kicad_prl
+
+# KiCad 9+ local file-history folder
+.history/
+
+# Rescue backups from library migration — not part of the design
+*-rescue.kicad_sch
+*-rescue.kicad_pcb
+
+# --- KiCad exports (regenerate from sources; add gerbers/ when you ship) ---
+# Uncomment or replace paths when you want to commit release artifacts instead.
+# gerbers/
+# production/
+*.net
+*.dsn
+*.ses
+
+# --- Obsidian (editor-only; JOURNAL.md stays tracked) ---
+.obsidian/
+.trash/
+
+# --- Optional: build / fab outputs (enable when you add these folders) ---
+# bom/
+# *.gbr
+# *.drl
+# *.pos
+# *.ipc
+# *.zip
