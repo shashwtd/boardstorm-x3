@@ -19,3 +19,10 @@ WOW!!! I kinda read the whole thing more carefully, did some research on the thi
 and this is how the board itself is looking like right now because I've breaked out all the GPIO's on the RP2040, onto header pins so that we can use them in our circuit etc. YAYYY
 ![[Pasted image 20260526061120.png]]
 
+
+**07:58 AM**
+I've been up all night and it's safe to say I'm absolutely fried. I took a lil break but I feel so groggy. However about the update, I added the header pin symbols into the schematics, very similar to raspberry Pi Pico pinout.. i was wondering when we will use those global labels and now finally I've done it. I'm also pretty much done with the schematic design and now I'm wondering to myself if I should push myself to add battery support as well... we'll see. im gonna commit this for now
+![[Pasted image 20260526080551.png]]
+(oh btw i really like how the final design turned out.. this schematic page looks really nice, i might get it printed out or something hehe)
+
+
