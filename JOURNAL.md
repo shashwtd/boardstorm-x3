@@ -9,3 +9,8 @@ I took a lil break but eventually got myself back to working on the project. thi
 ![[Pasted image 20260526043949.png]]![[Pasted image 20260526044415.png]]
 this is the progress ive made so far. ive worked on capacitors and the usb c power source. yay
 
+**05:35 AM**
+WOW!!! I kinda read the whole thing more carefully, did some research on the things i was confused about, studied about some of these parts that we're using and im very intrigued. I understand a lot better how the usb port in this board works, what pins are exactly used for what purpose, which one handles the data, which one is for the power delivery and all that. pretty cool stuff. I REALLY REALLY like how well engineered the **Crystal Oscillator** is.. it has to be the most interesting and probably my fav component so far. I did notice that the diagram on my schematic is a bit different from the one shown in tutorial? im a bit confused about that. but other than that, I see how it works. I did some research and it's very interesting. I always wondered how we keep track of everything and to such a precise level without consuming a lot of power and i think i finally understand. im currently working on the flash storage bit of the devboard and this is a screenshot of some of the progress ive made so far:
+![[Pasted image 20260526053955.png]]
+
+ 
