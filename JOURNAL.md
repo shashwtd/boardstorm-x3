@@ -26,3 +26,19 @@ I've been up all night and it's safe to say I'm absolutely fried. I took a lil b
 (oh btw i really like how the final design turned out.. this schematic page looks really nice, i might get it printed out or something hehe)
 
 
+## May 27th, 2026: fixing things & adding battery support
+
+**02:10 AM**
+hi, it was a good day, i was involved in some other things but i just had my fav burrito bowl and now am back to working. i saw a note mentioned in the guide about how this board won't support batteries & charging and would only work on USB power. i feel like if im making a board, and if i plan to use it in my projects, i need it to work well with batteries. hence, i decided to take up the challenge and am gonna do some research about how this works.. once i understand things better, i will implement battery & charging support.
+
+but before that, i found a couple of issues that i need to fix ASAP:
+- the resistors on my crystal oscillator were still on 15pF for some reason, i need to update them to 33pF to make sure the thing works well and operates at the right frequency.
+- i also noticed that accidentally i messed up some namings in global labels. need to fix it. GPIO26 keeps getting repeated when ideally the pin number gets incremented.
+  ![[Pasted image 20260527022430.png|279]]
+- i accidentally set the damping resistor value to 5k instead of 1k, later realised that can really mess things up if not corrected.
+
+**02:34 AM**
+all the problems above are fixed, but I decided to some improvements as welll. for example:
+- i swapped out the current flash storage which was 128Mbit(16MB) with a smaller component which only has 16Mbit(2MB)  and that's totally fine since our board only supports upto 16MB. we also save on physical space since this one has a smaller footprint compared to the previous
+- i also swapped out the voltage regulator with a different one which is smaller in size
+after these changes, the board would feel more compact which is a W. the original guide also made these changes later on before moving to pcb design
