@@ -72,5 +72,14 @@ yay
 added decoupling and voltage regulator. genuinely beyond tired now. going to sleep after this as soon as im done with some final changes. goodnight
 ![[Pasted image 20260528175053.png|322]]
 
+**5:56 PM**
+okay good morning, getting back to work now. next step is to add a fuel gauge. the one i ended up deciding on using is not available in kicad's default library. however, it's still commonly available and we can find it on snapeda website: [TADAAAAA](https://www.snapeda.com/parts/MAX17048G%2BT10/Analog%20Devices/view-part/?ref=dk&t=MAX17048&con_ref=None&ab_test_case=b) they have everything from symbol, to footprint & even the 3D model so wohooo. im now gonna import this in kicad so i can use it
+
+**06:59 PM**
+got the model, saved the schematic, footprint & the .step model to their respective folders. everything is present in PCB folder along with the project itself. 
+i imported the symbol, wired everything up and this is what we have now:
+![[Pasted image 20260528190516.png]]
+if everything was right, the fuel gauge should be in place. another good thing is, this exact fuel gauge is available on many electronic stores so getting hands on it will be easy as well.
+
 
 
