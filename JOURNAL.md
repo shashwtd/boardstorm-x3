@@ -26,6 +26,7 @@ I've been up all night and it's safe to say I'm absolutely fried. I took a lil b
 (oh btw i really like how the final design turned out.. this schematic page looks really nice, i might get it printed out or something hehe)
 
 
+---
 ## May 27th, 2026: fixing things & adding battery support
 
 **02:10 AM**
@@ -42,3 +43,23 @@ all the problems above are fixed, but I decided to some improvements as welll. f
 - i swapped out the current flash storage which was 128Mbit(16MB) with a smaller component which only has 16Mbit(2MB)  and that's totally fine since our board only supports upto 16MB. we also save on physical space since this one has a smaller footprint compared to the previous
 - i also swapped out the voltage regulator with a different one which is smaller in size
 after these changes, the board would feel more compact which is a W. the original guide also made these changes later on before moving to pcb design
+
+**23:30 PM**
+okay, i dozed off but i picked pace again during night time and i did some research and prepared a plan for how im going to implement the battery support. right now, we take whatever power we get from the usb, pass it through a 3.3V regulator and pass it to the board. there's no way to use this board with a lipo battery or such, and since i want to build projects using this board later on, i decided to add battery support. 
+
+ here's how the original structure looks:
+ ![[Pasted image 20260527234056.png|454]]
+
+---
+## May 28th, 2026: still working on adding battery & charging
+
+**01:40 AM**
+here's how i modified my board to be like:
+![[Pasted image 20260528015417.png]]
+
+I added a few extra components to have the following features:
+- LiPo battery support
+- battery charging support
+- allow checking battery status
+- automatic switching between usb-c power & battery power
+
