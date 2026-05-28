@@ -68,3 +68,9 @@ i have been at it for a good 3 hours atleast and im starting to realise how diff
 ![[Pasted image 20260528064938.png|439]]
 yay
 
+**07:12 AM**
+added decoupling and voltage regulator. genuinely beyond tired now. going to sleep after this as soon as im done with some final changes. goodnight
+![[Pasted image 20260528175053.png|322]]
+
+
+
