@@ -79,7 +79,8 @@ okay good morning, getting back to work now. next step is to add a fuel gauge. t
 got the model, saved the schematic, footprint & the .step model to their respective folders. everything is present in PCB folder along with the project itself. 
 i imported the symbol, wired everything up and this is what we have now:
 ![[Pasted image 20260528190516.png]]
-if everything was right, the fuel gauge should be in place. another good thing is, this exact fuel gauge is available on many electronic stores so getting hands on it will be easy as well.
+if everything was right, the fuel gauge should be in place. I still need to setup bypass capacitors & I2C pullups.. anyways, another good thing is, this exact fuel gauge is available on many electronic stores so getting hands on it will be easy as well.
 
-
+![[Pasted image 20260528191401.png|424]]
+added some notes + setup the bypass capacitors and I2C pullups.. the fuel gauge should be more than done now. im now gonna organize the sheet.
 
