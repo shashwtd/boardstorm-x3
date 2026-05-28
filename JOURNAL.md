@@ -63,3 +63,8 @@ I added a few extra components to have the following features:
 - allow checking battery status
 - automatic switching between usb-c power & battery power
 
+**06:20 AM**
+i have been at it for a good 3 hours atleast and im starting to realise how difficult hardware is.. however, i did end up doing a lot of research and finalized on this https://www.ti.com/product/BQ24075#order-quality power path IC which i can connect to the power flow to add automatic switching, battery charging etc.. this is how i wired it all up:
+![[Pasted image 20260528064938.png|439]]
+yay
+
