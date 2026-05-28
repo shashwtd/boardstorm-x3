@@ -84,3 +84,6 @@ if everything was right, the fuel gauge should be in place. I still need to setu
 ![[Pasted image 20260528191401.png|424]]
 added some notes + setup the bypass capacitors and I2C pullups.. the fuel gauge should be more than done now. im now gonna organize the sheet.
 
+**11:35 PM**
+presenting to you, the fully finished schematic design of boardstorm-x3. i also made sure to label and organize everything properly. the next step is to connect all footprints and move on to pcb
+![[boardstorm_x3_final_schematic_design.jpg]]
