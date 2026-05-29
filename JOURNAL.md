@@ -87,3 +87,10 @@ added some notes + setup the bypass capacitors and I2C pullups.. the fuel gauge 
 **11:35 PM**
 presenting to you, the fully finished schematic design of boardstorm-x3. i also made sure to label and organize everything properly. the next step is to connect all footprints and move on to pcb
 ![[boardstorm_x3_final_schematic_design.jpg]]
+
+**06:10 AM**
+assigned footprints for the main parts, headers, battery connector, USB-C, button, and crystal. most choices are standard KiCad footprints, but I would still need to verify the exact JLCPCB/LCSC parts before ordering, especially USB-C, and the 12MHz crystal/load capacitors. the plan is to get PCBA done so things should be fine, as long as there is inventory
+
+**08:42 AM** 
+started with PCB design, did some basic steps, aligned the header pins, and put RP2040 in the center. yet this still looks like a crazy mess.. god knows how im gonna finish this
+![[Pasted image 20260529084337.png]]
