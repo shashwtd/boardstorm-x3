@@ -116,3 +116,8 @@ i think i can fit things better now?
 **10:47 AM**
 didn't sleep all night. but i do feel the design is coming along now. it was really complex to look at first but eventually it felt easier and also looks nicer now
 ![[Pasted image 20260530104749.png|459]]
+
+**11:15 AM**
+okay, figured the power components. this is how things are looking right now:
+![[Pasted image 20260530111855.png]]
+this feels a lot more complete, but i fear i may have placed the battery connector wrong. im gonna check what's the right way to do it and then make that change
