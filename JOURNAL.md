@@ -113,3 +113,6 @@ okay i did some optimizations and i see a lot more space now. rotated footprints
 - switch button
 i think i can fit things better now?
 
+**10:47 AM**
+didn't sleep all night. but i do feel the design is coming along now. it was really complex to look at first but eventually it felt easier and also looks nicer now
+![[Pasted image 20260530104749.png|459]]
