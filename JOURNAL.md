@@ -121,3 +121,31 @@ didn't sleep all night. but i do feel the design is coming along now. it was rea
 okay, figured the power components. this is how things are looking right now:
 ![[Pasted image 20260530111855.png]]
 this feels a lot more complete, but i fear i may have placed the battery connector wrong. im gonna check what's the right way to do it and then make that change
+
+---
+### May 31st, 2026: need to do a lot of fixing in pcb routing
+
+**09:03 PM**
+hey!
+i thought i wad one with my pcb and wiring stuff but i realised that it's super duper messed up. decided to run DRC and we've got 83 errors & 200+ warnings. that does not look good. I am aware that the majority is because i still have not wired up the power routes (GND, 3v3, etc..) and the warnings are mostly for silkscreen, but if you remove that we still got a couple of things we need to fix and revise on.
+i spent like an hour of my day today just fixing some of these things. had to do a bunch of rewiring and also ive got some things to fix in the schematics. will brief more about them in a bit. the focus is to get the existing problems solved, and then we can add in new stuff.
+AAAAAAAAA
+
+bonus pic: 
+(i went to a hardware event yesterday and got some pictures)
+![[Pasted image 20260601001422.png]](this is a cool robo toy some guys built.. it looks pretty interesting, i might make one too)
+
+![[Pasted image 20260601001430.png]]
+(this is SO-ARM101, a popular open-source robotic arm platform made by [The Robot Studio](https://github.com/TheRobotStudio/SO-ARM100?utm_source=chatgpt.com) in collaboration with [Hugging Face LeRobot](https://huggingface.co/docs/lerobot/index?utm_source=chatgpt.com).  i plan to build one myself maybe later sometime? 
+in this picture: you can see my hand controlling the other robotic arm.. this is the training phase, once the model has evolved, it can do the same on its own without human support.. pretty cool)
+
+**10:58 PM**
+this entire footprint is messed up oh god. i need to either download completely new footprints or adjust this one manually to make sure it works well. i think its a lot easier to just get the right footprints from a reliable website. 
+![[Pasted image 20260531230002.png]]
+
+i ended up getting my files from here: https://www.analog.com/en/products/max17048.html
+
+so hopefully this all should work now? gonna test soon
+
+
+
