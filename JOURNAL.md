@@ -172,5 +172,9 @@ this is how the 3d render turned out to be and I am very satisfied with how it l
 okay so now we have a power LED in place, added a bunch of 3d models for any missing component so its nice to visualize it.. i also went through this dilemma of whether i should have the headers face front or back and eventually decided that since i can solder them myself (easy work), why don't i just get my PCB done and headers I will do based on the use case. easy peasy.
 i also added an ESD protection IC so the flash memory dont get burned from a sudden static electricity jump. that's good. 
 
-
+**07:21 AM**
+okay i am done with EVERYTHING except the ground layer which i cant seem to figure out.. im gonna ask one of my friends to help out with this one. going to sleep now!! goodnight
+![[Screenshot 2026-06-01 072016.png|510]]
+![[Pasted image 20260601072442.png|511]]
+the 3d render looks really good. also i flipped the headers on the back side yay
 
