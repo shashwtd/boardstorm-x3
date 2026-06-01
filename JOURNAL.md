@@ -146,6 +146,31 @@ this entire footprint is messed up oh god. i need to either download completely 
 i ended up getting my files from here: https://www.analog.com/en/products/max17048.html
 
 so hopefully this all should work now? gonna test soon
+UPDATE: it worked, it's fixed now!!
+
+---
+### June 1st, 2026: i swear i will make it work today!
+
+**00:41 AM**
+what in the abomination
+![[Pasted image 20260601004208.png]]
+this is a big schematic issue. im fixing it!
+
+okay nevermind, it was not that big of an issue. just my schematic got messed up and i did not notice it. it should be resolved now!! moving on...
+
+**03:53 AM**
+i took some nap.. however the board looks really good now.. 
+![[Pasted image 20260601035331.png]]
+this is how the 3d render turned out to be and I am very satisfied with how it looks. i really like the spiderman kinda shape that the wires are making.. it's missing a few cad models but it's fine. im gonna find them online and make it work.. other than that, here's what's pending:
+- USBLC6-2SC6 (to protect high-speed interfaces like USB 2.0 from static electricity)
+- add the ground and 3V3 wiring
+- a power LED, for my satisfaction
+- silkscreen graphics
+- adding a 3d model for the usb maybe? 
+
+**05:48 AM**
+okay so now we have a power LED in place, added a bunch of 3d models for any missing component so its nice to visualize it.. i also went through this dilemma of whether i should have the headers face front or back and eventually decided that since i can solder them myself (easy work), why don't i just get my PCB done and headers I will do based on the use case. easy peasy.
+i also added an ESD protection IC so the flash memory dont get burned from a sudden static electricity jump. that's good. 
 
 
 
