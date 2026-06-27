@@ -11,9 +11,9 @@ this is a custom RP2040 microcontroller devboard, it comes with the following fe
 - can charge and run at once on USB power
 - MAX17048 fuel gauge for accurate battery percentage over I2C
 
-![PCB RENDER](images\pcb_render.png)
-![PCB RENDER BACK](images\pcb-render-back.png)
-![PCB DESIGN](images\pcb-design.png)
+![PCB RENDER](images/pcb_render.png)
+![PCB RENDER BACK](images/pcb-render-back.png)
+![PCB DESIGN](images/pcb-design.png)
 
 
 ### key components used
