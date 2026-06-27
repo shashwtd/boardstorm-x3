@@ -12,8 +12,7 @@ this is a custom RP2040 microcontroller devboard, it comes with the following fe
 - MAX17048 fuel gauge for accurate battery percentage over I2C
 
 ![PCB RENDER](images/pcb_render.png)
-![PCB RENDER BACK](images/pcb-render-back.png)
-![PCB DESIGN](images/pcb-design.png)
+![PCB RENDER BACK](images/final_with_silkscreen.png)
 
 
 ### key components used
