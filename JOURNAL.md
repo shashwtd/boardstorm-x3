@@ -33,6 +33,8 @@ I've been up all night and it's safe to say I'm absolutely fried. I took a lil b
 
 (oh btw i really like how the final design turned out.. this schematic page looks really nice, i might get it printed out or something hehe)
 
+> **total hours: 5.5**
+
 ---
 
 
@@ -64,6 +66,8 @@ okay, i dozed off but i picked pace again during night time and i did some resea
  here's how the original structure looks:
 
 ![Pasted image 20260527234056](./images/Pasted%20image%2020260527234056.png)
+
+> **total hours: 7.5**
 
 ---
 
@@ -115,6 +119,8 @@ presenting to you, the fully finished schematic design of boardstorm-x3. i also 
 
 ![boardstorm_x3 final schematic design](./images/boardstorm_x3_final_schematic_design.jpg)
 
+> **total hours: 14**
+
 ---
 
 
@@ -128,6 +134,8 @@ assigned footprints for the main parts, headers, battery connector, USB-C, butto
 started with PCB design, did some basic steps, aligned the header pins, and put RP2040 in the center. yet this still looks like a crazy mess.. god knows how im gonna finish this
 
 ![Pasted image 20260529084337](./images/Pasted%20image%2020260529084337.png)
+
+> **total hours: 16**
 
 ---
 
@@ -160,6 +168,8 @@ okay, figured the power components. this is how things are looking right now:
 ![Pasted image 20260530111855](./images/Pasted%20image%2020260530111855.png)
 
 this feels a lot more complete, but i fear i may have placed the battery connector wrong. im gonna check what's the right way to do it and then make that change
+
+> **total hours: 21**
 
 ---
 
@@ -194,6 +204,8 @@ i ended up getting my files from here: [https://www.analog.com/en/products/max17
 
 so hopefully this all should work now? gonna test soon
 UPDATE: it worked, it's fixed now!!
+
+> **total hours: 23**
 
 ---
 
@@ -236,6 +248,8 @@ okay i am done with EVERYTHING except the ground layer which i cant seem to figu
 
 the 3d render looks really good. also i flipped the headers on the back side yay
 
+> **total hours: 27**
+
 
 
 ---
@@ -258,3 +272,5 @@ okay im done with wiring. no more DRC errors. here's a clean looking pcb:
 since im almost done i also went ahead and added a simple silkscreen with QR that leads to the project repository when i need to reference anything or such. this will be helpful in future when im actually putting this board to use!!
 
 ![with silkscreen PCB](./images/final_with_silkscreen.png)
+
+> **total hours: 28.5**
