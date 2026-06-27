@@ -1,4 +1,4 @@
-## BoardStorm X3 (WIP)
+## BoardStorm X3
 
 this is a custom RP2040 microcontroller devboard, it comes with the following features
 

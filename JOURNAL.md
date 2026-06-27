@@ -19,27 +19,30 @@ WOW!!! I kinda read the whole thing more carefully, did some research on the thi
 and this is how the board itself is looking like right now because I've breaked out all the GPIO's on the RP2040, onto header pins so that we can use them in our circuit etc. YAYYY
 ![[Pasted image 20260526061120.png]]
 
-
 **07:58 AM**
 I've been up all night and it's safe to say I'm absolutely fried. I took a lil break but I feel so groggy. However about the update, I added the header pin symbols into the schematics, very similar to raspberry Pi Pico pinout.. i was wondering when we will use those global labels and now finally I've done it. I'm also pretty much done with the schematic design and now I'm wondering to myself if I should push myself to add battery support as well... we'll see. im gonna commit this for now
 ![[Pasted image 20260526080551.png]]
 (oh btw i really like how the final design turned out.. this schematic page looks really nice, i might get it printed out or something hehe)
 
-
 ---
+
+
+
 ## May 27th, 2026: fixing things & adding battery support
 
 **02:10 AM**
 hi, it was a good day, i was involved in some other things but i just had my fav burrito bowl and now am back to working. i saw a note mentioned in the guide about how this board won't support batteries & charging and would only work on USB power. i feel like if im making a board, and if i plan to use it in my projects, i need it to work well with batteries. hence, i decided to take up the challenge and am gonna do some research about how this works.. once i understand things better, i will implement battery & charging support.
 
 but before that, i found a couple of issues that i need to fix ASAP:
+
 - the resistors on my crystal oscillator were still on 15pF for some reason, i need to update them to 33pF to make sure the thing works well and operates at the right frequency.
 - i also noticed that accidentally i messed up some namings in global labels. need to fix it. GPIO26 keeps getting repeated when ideally the pin number gets incremented.
-  ![[Pasted image 20260527022430.png|279]]
+![[Pasted image 20260527022430.png|279]]
 - i accidentally set the damping resistor value to 5k instead of 1k, later realised that can really mess things up if not corrected.
 
 **02:34 AM**
 all the problems above are fixed, but I decided to some improvements as welll. for example:
+
 - i swapped out the current flash storage which was 128Mbit(16MB) with a smaller component which only has 16Mbit(2MB)  and that's totally fine since our board only supports upto 16MB. we also save on physical space since this one has a smaller footprint compared to the previous
 - i also swapped out the voltage regulator with a different one which is smaller in size
 after these changes, the board would feel more compact which is a W. the original guide also made these changes later on before moving to pcb design
@@ -51,6 +54,9 @@ okay, i dozed off but i picked pace again during night time and i did some resea
  ![[Pasted image 20260527234056.png|454]]
 
 ---
+
+
+
 ## May 28th, 2026: still working on adding battery & charging
 
 **01:40 AM**
@@ -58,13 +64,14 @@ here's how i modified my board to be like:
 ![[Pasted image 20260528015417.png]]
 
 I added a few extra components to have the following features:
+
 - LiPo battery support
 - battery charging support
 - allow checking battery status
 - automatic switching between usb-c power & battery power
 
 **06:20 AM**
-i have been at it for a good 3 hours atleast and im starting to realise how difficult hardware is.. however, i did end up doing a lot of research and finalized on this https://www.ti.com/product/BQ24075#order-quality power path IC which i can connect to the power flow to add automatic switching, battery charging etc.. this is how i wired it all up:
+i have been at it for a good 3 hours atleast and im starting to realise how difficult hardware is.. however, i did end up doing a lot of research and finalized on this [https://www.ti.com/product/BQ24075#order-quality](https://www.ti.com/product/BQ24075#order-quality) power path IC which i can connect to the power flow to add automatic switching, battery charging etc.. this is how i wired it all up:
 ![[Pasted image 20260528064938.png|439]]
 yay
 
@@ -89,6 +96,9 @@ presenting to you, the fully finished schematic design of boardstorm-x3. i also 
 ![[boardstorm_x3_final_schematic_design.jpg]]
 
 ---
+
+
+
 ## May 29th, 2026: footprints & PCB
 
 **06:10 AM**
@@ -99,6 +109,9 @@ started with PCB design, did some basic steps, aligned the header pins, and put 
 ![[Pasted image 20260529084337.png]]
 
 ---
+
+
+
 ### May 30th, 2026: PCB is making me cry
 
 **04:01 AM**
@@ -107,6 +120,7 @@ i completely forgot that i need to optimize my board further to make sure i am a
 
 **04:28 AM**
 okay i did some optimizations and i see a lot more space now. rotated footprints to get smaller variations for these components:
+
 - U3/flash storage
 - capacitors
 - resistors
@@ -123,6 +137,9 @@ okay, figured the power components. this is how things are looking right now:
 this feels a lot more complete, but i fear i may have placed the battery connector wrong. im gonna check what's the right way to do it and then make that change
 
 ---
+
+
+
 ### May 31st, 2026: need to do a lot of fixing in pcb routing
 
 **09:03 PM**
@@ -143,12 +160,15 @@ in this picture: you can see my hand controlling the other robotic arm.. this is
 this entire footprint is messed up oh god. i need to either download completely new footprints or adjust this one manually to make sure it works well. i think its a lot easier to just get the right footprints from a reliable website. 
 ![[Pasted image 20260531230002.png]]
 
-i ended up getting my files from here: https://www.analog.com/en/products/max17048.html
+i ended up getting my files from here: [https://www.analog.com/en/products/max17048.html](https://www.analog.com/en/products/max17048.html)
 
 so hopefully this all should work now? gonna test soon
 UPDATE: it worked, it's fixed now!!
 
 ---
+
+
+
 ### June 1st, 2026: i swear i will make it work today!
 
 **00:41 AM**
@@ -162,11 +182,12 @@ okay nevermind, it was not that big of an issue. just my schematic got messed up
 i took some nap.. however the board looks really good now.. 
 ![[Pasted image 20260601035331.png]]
 this is how the 3d render turned out to be and I am very satisfied with how it looks. i really like the spiderman kinda shape that the wires are making.. it's missing a few cad models but it's fine. im gonna find them online and make it work.. other than that, here's what's pending:
+
 - USBLC6-2SC6 (to protect high-speed interfaces like USB 2.0 from static electricity)
 - add the ground and 3V3 wiring
 - a power LED, for my satisfaction
 - silkscreen graphics
-- adding a 3d model for the usb maybe? 
+- adding a 3d model for the usb maybe?
 
 **05:48 AM**
 okay so now we have a power LED in place, added a bunch of 3d models for any missing component so its nice to visualize it.. i also went through this dilemma of whether i should have the headers face front or back and eventually decided that since i can solder them myself (easy work), why don't i just get my PCB done and headers I will do based on the use case. easy peasy.
@@ -178,3 +199,23 @@ okay i am done with EVERYTHING except the ground layer which i cant seem to figu
 ![[Pasted image 20260601072442.png|511]]
 the 3d render looks really good. also i flipped the headers on the back side yay
 
+
+
+---
+
+### June 27th, 2026: FIXING WHAT I LEFT, :<<<
+
+
+
+**07:43 PM:**
+
+ i realised i never got back to this project because i got lazy + forgot about it. i should genuinely finish up and then submit it.. im gonna fix the ground wiring and need to adjust a few things more to make sure this thing works well. might have to do some serious re-arrangement
+
+**08:32 PM:**
+
+okay im done with wiring. no more DRC errors. here's a clean looking pcb:
+![Completed well wired PCB](./images/completed_well_wired_pcb.png)
+
+
+since im almost done i also went ahead and added a simple silkscreen with QR that leads to the project repository when i need to reference anything or such. this will be helpful in future when im actually putting this board to use!!
+![with silkscreen PCB](./images/final_with_silkscreen.png)
