@@ -13,7 +13,9 @@ this is a custom RP2040 microcontroller devboard, it comes with the following fe
 
 ![PCB RENDER](images/pcb_render.png)
 ![PCB RENDER BACK](images/final_with_silkscreen.png)
-
+![Final schematic](images/boardstorm_x3_final_schematic_design.jpg)
+![Built PCB front](images/pcb_front.png)
+![Built PCB back](images/pcb_back.png)
 
 ### key components used
 

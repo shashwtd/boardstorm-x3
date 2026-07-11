@@ -36,9 +36,6 @@ I've been up all night and it's safe to say I'm absolutely fried. I took a lil b
 > **total hours: 5.5**
 
 ---
-
-
-
 ## May 27th, 2026: fixing things & adding battery support
 
 **02:10 AM**
@@ -70,9 +67,6 @@ okay, i dozed off but i picked pace again during night time and i did some resea
 > **total hours: 7.5**
 
 ---
-
-
-
 ## May 28th, 2026: still working on adding battery & charging
 
 **01:40 AM**
@@ -122,9 +116,6 @@ presenting to you, the fully finished schematic design of boardstorm-x3. i also 
 > **total hours: 14**
 
 ---
-
-
-
 ## May 29th, 2026: footprints & PCB
 
 **06:10 AM**
@@ -138,9 +129,6 @@ started with PCB design, did some basic steps, aligned the header pins, and put 
 > **total hours: 16**
 
 ---
-
-
-
 ### May 30th, 2026: PCB is making me cry
 
 **04:01 AM**
@@ -172,9 +160,6 @@ this feels a lot more complete, but i fear i may have placed the battery connect
 > **total hours: 21**
 
 ---
-
-
-
 ### May 31st, 2026: need to do a lot of fixing in pcb routing
 
 **09:03 PM**
@@ -208,9 +193,6 @@ UPDATE: it worked, it's fixed now!!
 > **total hours: 23**
 
 ---
-
-
-
 ### June 1st, 2026: i swear i will make it work today!
 
 **00:41 AM**
@@ -251,9 +233,6 @@ the 3d render looks really good. also i flipped the headers on the back side yay
 > **total hours: 27**
 
 ---
-
-
-
 ### June 27th, 2026: FIXING WHAT I LEFT, :<<<
 
 **07:43 PM:**
@@ -270,15 +249,38 @@ since im almost done i also went ahead and added a simple silkscreen with QR tha
 
 ![PCB with silkscreen](images/final_with_silkscreen.png)
 
-
-
 **10:49 PM:**
-
 it's been more than 2 hours, and just now i finished with exporting all the components, finding the right key parts, preparing all the gerber files, checking quotes on multiple sites, decided on JLCPCB, configured all the settings, made changes to reduce cost, searched for any extra parts on robocraze and prepared the BOM.... BUT WE'RE DONE. and im excited YAY!!! im tired i will sleep after this gn
-
-
 
 > **total hours: 30.5**
 
 
+---
 
+### July 11th, 2026:
+
+**06:59 PM:**
+hey, i got my pcb delivered a couple of days ago, also got all the components needed to mout it. i soldered the header pins today and mounted in on a breadboard.. to test further, i am going to make a circuit on the breadboard and install a custom firmware to confirm it all works
+![[mount_on_bb_image.png]]
+
+> **total hours: 32.5**
+
+---
+### July 12th, 2026:
+
+**00:52 AM:**
+beep boop, i wired it up, and used a multimeter to test and the board is giving a 3.3V output yay
+
+**01:57 AM:**
+hey beep boop, i installed a custom firmware on the board, tested everything, wired it up with a LED and basically, the board is working :yay: 
+![[pcb_testing_setup.png]]
+the LED actually blinks at a given interval based on the firmware code I have installed
+
+here's how the board looks:
+![[pcb_back.png]]![[pcb_front.png]]
+
+simple test video: https://youtu.be/fvBwEmC1yZE
+
+> **total hours: 33.5**
+
+---

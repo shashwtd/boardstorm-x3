@@ -9408,7 +9408,7 @@
 		(at 148.4 91.28865 90)
 		(tags "USBLC6-2SC6 ")
 		(property "Reference" "U6"
-			(at 0 0 90)
+			(at 0 -0.1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "78d6521f-b55d-4805-8494-6f6a6a26d35c")
