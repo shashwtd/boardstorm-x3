@@ -261,7 +261,8 @@ it's been more than 2 hours, and just now i finished with exporting all the comp
 
 **06:59 PM:**
 hey, i got my pcb delivered a couple of days ago, also got all the components needed to mout it. i soldered the header pins today and mounted in on a breadboard.. to test further, i am going to make a circuit on the breadboard and install a custom firmware to confirm it all works
-![[mount_on_bb_image.png]]
+
+![Board mounted on a breadboard](images/mount_on_bb_image.png)
 
 > **total hours: 32.5**
 
@@ -273,11 +274,16 @@ beep boop, i wired it up, and used a multimeter to test and the board is giving 
 
 **01:57 AM:**
 hey beep boop, i installed a custom firmware on the board, tested everything, wired it up with a LED and basically, the board is working :yay: 
-![[pcb_testing_setup.png]]
+
+![PCB testing setup](images/pcb_testing_setup.png)
+
 the LED actually blinks at a given interval based on the firmware code I have installed
 
 here's how the board looks:
-![[pcb_back.png]]![[pcb_front.png]]
+
+![Built PCB back](images/pcb_back.png)
+
+![Built PCB front](images/pcb_front.png)
 
 simple test video: https://youtu.be/fvBwEmC1yZE
 
